@@ -38,9 +38,10 @@
         <p>En plein centre-ville ou en pleine nature</p>
 
         <div id="searchbar">
-            <i class="fa-solid fa-location-dot location"></i>
-            <label for="citysearch"></label>
-            <input type="search" id="cityname" name="cityname" value="Marseille, France">
+            <div id="container_form_icon">
+                <i class="fa-solid fa-location-dot location"></i>
+            </div>
+            <input type="search" id="cityname" name="cityname" placeholder="Marseille, France">
             <button class="citysearch" type="button">Rechercher</button>
         </div>
 
@@ -49,29 +50,29 @@
 
                 <div class= "filtre">
                     <i class="fa-solid fa-money-bill-wave economique"></i>
-                    <a href="#">Économique</a>
+                    <p>Économique</p>
                 </div>
         
                 <div class= "filtre">
                     <i class="fa-solid fa-child-reaching familial"></i>
-                    <a href="#">Familial</a>
+                    <p>Familial</p>
                 </div>
 
                 <div class= "filtre">
                     <i class="fa-solid fa-heart romantique"></i>
-                    <a href="#">Romantique</a>
+                    <p>Romantique</p>
                 </div>
 
                 <div class= "filtre">
                     <i class="fa-solid fa-dog animaux"></i>
-                    <a href="#">Animaux autorisés</a>
+                    <p>Animaux autorisés</p>
                 </div>
 
         </div>
 
                 <div id ="info_logements">
-                    <i class="fa-solid fa-circle-info info"></i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                        <i class="fa-solid fa-circle-info info"></i>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
         
         <article>
@@ -81,7 +82,7 @@
 
                 <div class ="vignette_hebergements">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/cannebière.jpg" alt="Auberge La Cannebière" title="Auberge La Cannebière">
+                    <img class="img01" src="/Users/morganefisichella/Desktop/P2/3_medium/cannebière.jpg" alt="Auberge La Cannebière" title="Auberge La Cannebière">
                     <h3>Auberge La Cannebière</h3></br>
                     <p>Nuit à partir de <strong>25€</strong></p><br>
                         <div class ="etoiles">
@@ -97,7 +98,7 @@
 
                 <div class ="vignette_hebergements">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/port.jpg" alt="Hôtel du port" title="Hôtel du port">
+                    <img class="img02" src="/Users/morganefisichella/Desktop/P2/3_medium/port.jpg" alt="Hôtel du port" title="Hôtel du port">
                     <h3>Hôtel du port</h3></br>
                     <p>Nuit à partir de <strong>52€</strong></p><br>
                         <div class ="etoiles">
@@ -112,7 +113,7 @@
 
                 <div class ="vignette_hebergements">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/mouettes.jpg" alt="Hôtel Les mouettes" title="Hôtel Les mouettes">
+                    <img class="img03" src="/Users/morganefisichella/Desktop/P2/3_medium/mouettes.jpg" alt="Hôtel Les mouettes" title="Hôtel Les mouettes">
                     <h3>Hôtel Les mouettes</h3></br>
                     <p>Nuit à partir de <strong>76€</strong></p><br>
                         <div class ="etoiles">
@@ -127,7 +128,7 @@
                 
                 <div class ="vignette_hebergements">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/mer.jpg" alt="Hôtel de la mer" title="Hôtel de la mer">
+                    <img class="img04" src="/Users/morganefisichella/Desktop/P2/3_medium/mer.jpg" alt="Hôtel de la mer" title="Hôtel de la mer">
                     <h3>Hôtel de la mer</h3></br>
                     <p>Nuit à partir de <strong>46€</strong></p><br>
                         <div class ="etoiles">
@@ -142,7 +143,7 @@
 
                 <div class ="vignette_hebergements">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/panier.jpg" alt="Auberge Le Panier" title="Auberge Le Panier">
+                    <img class="img05" src="/Users/morganefisichella/Desktop/P2/3_medium/panier.jpg" alt="Auberge Le Panier" title="Auberge Le Panier">
                     <h3>Auberge Le Panier</h3></br>
                     <p>Nuit à partir de <strong>23€</strong></p><br>
                         <div class ="etoiles">
@@ -157,7 +158,7 @@
 
                 <div class ="vignette_hebergements">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/amina.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina">
+                    <img class="img06" src="/Users/morganefisichella/Desktop/P2/3_medium/amina.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina">
                     <h3>Hôtel chez Amina</h3></br>
                     <p>Nuit à partir de <strong>96€</strong></p><br>
                         <div class ="etoiles">
@@ -169,10 +170,8 @@
                         </div>
                     </a>
                 </div>
+                <h4>Afficher plus</h4>
             </div>
-
-        <h4>Afficher plus</h4>
-
         </article>
 
         <article>
@@ -184,7 +183,7 @@
 
                 <div class ="vignette_populaires">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/soleil.jpg" alt="Hôtel Le soleil du matin" title="Hôtel Le soleil du matin">
+                    <img class="img07" src="/Users/morganefisichella/Desktop/P2/3_medium/soleil.jpg" alt="Hôtel Le soleil du matin" title="Hôtel Le soleil du matin">
                     <h3>Hôtel Le soleil du matin</h3><br>
                     <p>Nuit à partir de <strong>128€</strong></p><br>
                         <div class ="etoiles">
@@ -199,7 +198,7 @@
 
                 <div class ="vignette_populaires">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/hôtes.jpg" alt="Au coeur de l'eau Chambres d'hôtes" title="Au coeur de l'eau Chambres d'hôtes">
+                    <img class="img08" src="/Users/morganefisichella/Desktop/P2/3_medium/hôtes.jpg" alt="Au coeur de l'eau Chambres d'hôtes" title="Au coeur de l'eau Chambres d'hôtes">
                     <h3>Au coeur de l'eau Chambres d'hôtes</h3><br>
                     <p>Nuit à partir de <strong>71€</strong></p><br>
                         <div class ="etoiles">
@@ -214,7 +213,7 @@
     
                 <div class ="vignette_populaires">
                     <a : href="#">
-                    <img src="/Users/morganefisichella/Desktop/P2/3_medium/bleublanc.jpg" alt="Hôtel Tout bleu et Blanc" title="Hôtel Tout bleu et Blanc">
+                    <img class="img09" src="/Users/morganefisichella/Desktop/P2/3_medium/bleublanc.jpg" alt="Hôtel Tout bleu et Blanc" title="Hôtel Tout bleu et Blanc">
                     <h3>Hôtel Tout bleu et Blanc</h3><br>
                     <p>Nuit à partir de <strong>68€</strong></p><br>
                         <div class ="etoiles">
@@ -238,42 +237,42 @@
 
             <div class ="box_activites_grand">
                 <a : href="#">
-                <img src="/Users/morganefisichella/Desktop/P2/3_actvmedium/vieuxport.jpg" alt="Vieux Port" title="Vieux Port">
+                <img class="img10" src="/Users/morganefisichella/Desktop/P2/3_actvmedium/vieuxport.jpg" alt="Vieux Port" title="Vieux Port">
                 <h3>Vieux port</h3>
                 </a>
             </div>
 
             <div id="box_activites_fort_de_pomègues">
                 <a : href="#">
-                <img src="/Users/morganefisichella/Desktop/P2/3_actvmedium/pomègues.jpg" alt="Fort de Pomègues" title="Fort de Pomègues">
+                <img class="img11" src="/Users/morganefisichella/Desktop/P2/3_actvmedium/pomègues.jpg" alt="Fort de Pomègues" title="Fort de Pomègues">
                 <h3>Fort de Pomègues</h3>
                 </a>
             </div>
 
             <div id ="box_activites_iles_du_frioul">
                 <a : href="#">
-                <img src="/Users/morganefisichella/Desktop/P2/3_actvmedium/frioul.jpg" alt="Îles du Frioul" title="Îles du Frioul">
+                <img class="img12" src="/Users/morganefisichella/Desktop/P2/3_actvmedium/frioul.jpg" alt="Îles du Frioul" title="Îles du Frioul">
                 <h3>Îles du Frioul</h3>
                 </a>
             </div>
 
             <div class ="box_activites_grand">
                 <a : href="#">
-                <img src="/Users/morganefisichella/Desktop/P2/3_actvmedium/calanques.jpg" alt="Parc National des Calanques" title="Parc National des Calanques">
+                <img class="img13" src="/Users/morganefisichella/Desktop/P2/3_actvmedium/calanques.jpg" alt="Parc National des Calanques" title="Parc National des Calanques">
                 <h3>Parc National des Calanques</h3>
                 </a>
             </div>
 
             <div id ="box_activites_notre_dame_de_la_garde">
                 <a : href="#">
-                <img src="/Users/morganefisichella/Desktop/P2/3_actvmedium/notredame.jpg" alt="Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde">
+                <img class="img14" src="/Users/morganefisichella/Desktop/P2/3_actvmedium/notredame.jpg" alt="Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde">
                 <h3>Notre-Dame-de-la-Garde</h3>
                 </a>
             </div>
 
             <div id ="box_activites_parc_longchamp">
                 <a : href="#">
-                <img src="/Users/morganefisichella/Desktop/P2/3_actvmedium/longchamp.jpg" alt="Parc Longchamp" title="Parc Longchamp">
+                <img class="img15" src="/Users/morganefisichella/Desktop/P2/3_actvmedium/longchamp.jpg" alt="Parc Longchamp" title="Parc Longchamp">
                 <h3>Parc Longchamp</h3>
                 </a> 
             </div>
